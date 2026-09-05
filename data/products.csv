@@ -1,0 +1,57 @@
+id,name,category,price,cost,reorder_threshold,target_stock
+1,Wireless Headphones,Electronics,2999,1500,15,50
+2,Bluetooth Speaker,Electronics,1999,900,10,40
+3,Smart Watch,Electronics,4999,2500,8,30
+4,Power Bank 20000mAh,Electronics,1499,700,12,40
+5,USB-C Hub,Electronics,1299,600,10,35
+6,Wireless Charger,Electronics,899,400,15,45
+7,Portable SSD 1TB,Electronics,7999,4500,5,20
+8,Action Camera,Electronics,15999,9000,3,15
+9,Phone Case Premium,Mobile Accessories,599,150,20,80
+10,Screen Protector Glass,Mobile Accessories,299,80,25,100
+11,Wireless Earbuds,Mobile Accessories,2499,1200,12,40
+12,Car Mount Holder,Mobile Accessories,399,120,15,50
+13,Lightning Cable 2m,Mobile Accessories,499,150,20,60
+14,USB-C Cable 1m,Mobile Accessories,299,80,25,80
+15,Mobile Gimbal,Mobile Accessories,4999,2800,5,20
+16,Ring Light Phone,Mobile Accessories,799,300,10,35
+17,Mechanical Keyboard,Computing,3999,2000,8,30
+18,Gaming Mouse RGB,Computing,1799,800,10,35
+19,Monitor 27inch 144Hz,Computing,18999,11000,3,15
+20,Laptop Stand Aluminum,Computing,1299,500,12,40
+21,Webcam 1080p,Computing,2499,1200,8,30
+22,External HDD 2TB,Computing,5499,3200,6,25
+23,WiFi 6 Router,Computing,4999,2800,5,20
+24,USB Microphone,Computing,3499,1800,7,25
+25,Air Fryer 4L,Home Appliances,4999,2800,6,25
+26,Robot Vacuum,Home Appliances,19999,12000,3,12
+27,Electric Kettle 1.5L,Home Appliances,1299,550,15,50
+28,Hand Blender,Home Appliances,1799,800,10,35
+29,Toaster 4-Slice,Home Appliances,2499,1200,8,30
+30,Coffee Maker,Home Appliances,3999,2200,7,25
+31,Hair Dryer Ionic,Home Appliances,1999,900,10,35
+32,Stand Mixer,Home Appliances,8999,5000,4,15
+33,Ergonomic Chair,Office Supplies,12999,7500,3,12
+34,Standing Desk,Office Supplies,18999,11000,2,10
+35,Monitor Arm,Office Supplies,2999,1400,8,30
+36,Desk Lamp LED,Office Supplies,1499,650,12,40
+37,Wireless Keyboard Mouse,Office Supplies,2299,1100,10,35
+38,Document Scanner,Office Supplies,8999,5000,4,15
+39,Whiteboard 4x3ft,Office Supplies,3499,1800,6,25
+40,Cable Management Kit,Office Supplies,599,200,15,50
+41,Electric Toothbrush,Personal Care,2499,1200,10,35
+42,Beard Trimmer,Personal Care,1799,800,12,40
+43,Hair Straightener,Personal Care,1999,900,10,35
+44,Facial Cleansing Brush,Personal Care,1299,550,15,50
+45,Massage Gun,Personal Care,4999,2800,6,25
+46,Nail Care Kit,Personal Care,799,300,20,60
+47,Water Flosser,Personal Care,3499,1800,8,30
+48,Epilator,Personal Care,3999,2200,7,25
+49,Backpack Laptop 15inch,Accessories,2499,1200,10,35
+50,Wallet Leather RFID,Accessories,1299,550,15,50
+51,Watch Strap Silicone,Accessories,499,150,20,70
+52,Sunglasses Polarized,Accessories,1999,900,10,35
+53,Travel Organizer,Accessories,899,350,15,50
+54,Key Organizer,Accessories,599,200,20,60
+55,Pen Premium Metal,Accessories,899,350,15,50
+56,Card Holder Minimal,Accessories,699,250,18,55
