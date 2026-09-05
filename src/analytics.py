@@ -526,11 +526,13 @@ def get_store_performance(store_id: int, date_from: Optional[str] = None,
     conn = get_db()
     try:
         query = """
-            SELECT COALESCE(SUM(sa.quantity), 0) as units_sold,
+            SELECT st.id, st.name, st.city, st.region,
+                   COALESCE(SUM(sa.quantity), 0) as units_sold,
                    COALESCE(SUM(sa.revenue), 0) as revenue,
                    COUNT(DISTINCT sa.product_id) as products_sold
-            FROM sales sa
-            WHERE sa.store_id = ?
+            FROM stores st
+            LEFT JOIN sales sa ON st.id = sa.store_id
+            WHERE st.id = ?
         """
         params = [store_id]
         if date_from:
@@ -540,6 +542,7 @@ def get_store_performance(store_id: int, date_from: Optional[str] = None,
             query += " AND sa.date <= ?"
             params.append(date_to)
 
+        query += " GROUP BY st.id, st.name, st.city, st.region"
         cursor = conn.execute(query, params)
         row = cursor.fetchone()
         return dict(row) if row else {}
